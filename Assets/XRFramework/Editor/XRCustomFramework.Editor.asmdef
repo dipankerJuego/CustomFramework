@@ -1,0 +1,15 @@
+{
+    "name": "XRCustomFramework.Editor",
+    "references": [
+        "GUID:7bc23e340a7cc4ae5982c0b536918b6a"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
