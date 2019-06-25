@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8483587237789908004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8130199264174492856}
+  - component: {fileID: 2152163429428128447}
+  m_Layer: 0
+  m_Name: OculusTouchRiftPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8130199264174492856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483587237789908004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7035570654731850384}
+  - {fileID: 9061896123653451434}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2152163429428128447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483587237789908004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093bf11fa277d4b9fa955cec0ed8c9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thumbStickL: {fileID: 7040632708236474738}
+  thumbStickR: {fileID: 9063541928978802962}
+  tiggerButtonL: {fileID: 7040977734313576416}
+  tiggerButtonR: {fileID: 9064383020326244864}
+  buttonX: {fileID: 7040567001116013398}
+  buttonY: {fileID: 7040615514342135340}
+  buttonA: {fileID: 9064560315563695548}
+  buttonB: {fileID: 9064451484540624434}
+  menuButton: {fileID: 7040914500507007996}
+  homeButton: {fileID: 9064553967865667126}
+--- !u!1001 &2040042107496287955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8130199264174492856}
+    m_Modifications:
+    - target: {fileID: 7027453374657339793, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_Name
+      value: OculusTouchForRiftRightModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1434
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f325b2ac23dd14cb29d75b5e942aee26, type: 3}
+--- !u!4 &9061896123653451434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7029553868442542201, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9064560315563695548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7026854466538247023, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9064451484540624434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7026963306068414689, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9064383020326244864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7026889924649884883, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9064553967865667126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7026860831402512613, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9063541928978802962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7027731024620824513, guid: f325b2ac23dd14cb29d75b5e942aee26,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040042107496287955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9033686435495306507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8130199264174492856}
+    m_Modifications:
+    - target: {fileID: 2083695646648403941, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_Name
+      value: OculusTouchForRiftLeftModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0019170791
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0009121457
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0073837433
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a9f6b9565bfb49f4bef1de5c31cc159, type: 3}
+--- !u!4 &7035570654731850384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2088904757971400603, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7040914500507007996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2082989166151048951, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7040977734313576416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2083066571047330539, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7040632708236474738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2083833840729070713, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7040567001116013398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2083767575584249437, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7040615514342135340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2083851004826219303, guid: 8a9f6b9565bfb49f4bef1de5c31cc159,
+    type: 3}
+  m_PrefabInstance: {fileID: 9033686435495306507}
+  m_PrefabAsset: {fileID: 0}
